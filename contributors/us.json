@@ -1,0 +1,15 @@
+[
+  {
+    "id": "us_001",
+    "name": "Sierra Club",
+    "category": "earth",
+    "country": "US",
+    "tags": [
+      "nature",
+      "climate",
+      "conservation"
+    ],
+    "url": "The most enduring and influential grassroots environmental organization in the United States.",
+    "desc": "https://www.sierraclub.org/"
+  }
+]
