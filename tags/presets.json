@@ -1,0 +1,177 @@
+[
+  {
+    "id": "tag_ctx_dawn",
+    "category": "context",
+    "titles": {
+      "ko": "새벽에", "en": "At dawn", "de": "In der Morgendämmerung", "ru": "На рассвете", "es": "Al amanecer", "ar": "في الفجر", "it": "All'alba", "id": "Saat fajar", "ja": "夜明けに", "zh": "凌晨", "th": "ตอน 새벽", "fr": "À l'aube"
+    }
+  },
+  {
+    "id": "tag_ctx_wakeup",
+    "category": "context",
+    "titles": {
+      "ko": "잠에서 깨자마자", "en": "Right after waking up", "de": "Gleich nach dem Aufwachen", "ru": "Сразу после пробуждения", "es": "Justo después de despertar", "ar": "فور الاستيقاظ", "it": "Appena svegli", "id": "Segera setelah bangun", "ja": "目が覚めて 바로", "zh": "刚起床", "th": "หลังตื่นนอนทันที", "fr": "Juste après le réveil"
+    }
+  },
+  {
+    "id": "tag_ctx_transit",
+    "category": "context",
+    "titles": {
+      "ko": "대중교통 이용 시", "en": "On public transit", "de": "In öffentlichen Verkehrsmitteln", "ru": "В общественном транспорте", "es": "En transporte público", "ar": "في المواصلات العامة", "it": "Sui mezzi pubblici", "id": "Di transportasi umum", "ja": "公共交通機関で", "zh": "乘坐公共交通时", "th": "ขณะใช้ขนส่งสาธารณะ", "fr": "Dans les transports"
+    }
+  },
+  {
+    "id": "tag_ctx_driving",
+    "category": "context",
+    "titles": {
+      "ko": "운전 중에", "en": "While driving", "de": "Beim Autofahren", "ru": "За рулем", "es": "Mientras conduzco", "ar": "أثناء القيادة", "it": "Alla guida", "id": "Saat menyetir", "ja": "運転中に", "zh": "驾驶时", "th": "ขณะขับรถ", "fr": "En conduisant"
+    }
+  },
+  {
+    "id": "tag_ctx_work_start",
+    "category": "context",
+    "titles": {
+      "ko": "업무/공부 시작 전", "en": "Before starting work/study", "de": "Vor der Arbeit/dem Studium", "ru": "Перед работой/учебой", "es": "Antes de trabajar/estudiar", "ar": "قبل العمل/الدراسة", "it": "Prima di lavoro/studio", "id": "Sebelum kerja/belajar", "ja": "仕事・勉強の前に", "zh": "工作/学习前", "th": "ก่อนเริ่มงาน/เรียน", "fr": "Avant le travail/l'étude"
+    }
+  },
+  {
+    "id": "tag_ctx_lunch_break",
+    "category": "context",
+    "titles": {
+      "ko": "점심 휴식 시간", "en": "During lunch break", "de": "In der Mittagspause", "ru": "В обеденный перерыв", "es": "Durante el almuerzo", "ar": "أثناء استراحة الغداء", "it": "Durante la pausa pranzo", "id": "Saat istirahat siang", "ja": "昼休みに", "zh": "午休时间", "th": "ช่วงพักเที่ยง", "fr": "Pendant la pause déjeuner"
+    }
+  },
+  {
+    "id": "tag_ctx_after_meal",
+    "category": "context",
+    "titles": {
+      "ko": "식사 마친 직후", "en": "Right after meal", "de": "Direkt nach dem Essen", "ru": "Сразу после еды", "es": "Justo después de comer", "ar": "بعد الوجبة مباشرة", "it": "Subito dopo i pasti", "id": "Segera setelah makan", "ja": "食後すぐ", "zh": "饭后", "th": "หลังอาหารทันที", "fr": "Juste après le repas"
+    }
+  },
+  {
+    "id": "tag_ctx_home_arrival",
+    "category": "context",
+    "titles": {
+      "ko": "귀가 직후", "en": "Right after arriving home", "de": "Gleich nach dem Nachhausekommen", "ru": "Сразу по приходу домой", "es": "Justo al llegar a casa", "ar": "فور وصول المنزل", "it": "Appena tornati a casa", "id": "Segera setelah sampai rumah", "ja": "帰宅直後", "zh": "回到家后", "th": "เมื่อถึงบ้านทันที", "fr": "Juste après être rentré"
+    }
+  },
+  {
+    "id": "tag_ctx_shower_after",
+    "category": "context",
+    "titles": {
+      "ko": "샤워를 마친 뒤", "en": "After shower", "de": "Nach dem Duschen", "ru": "После душа", "es": "Después de ducharse", "ar": "بعد الاستحمام", "it": "Dopo la doccia", "id": "Setelah mandi", "ja": "シャワーの後", "zh": "洗澡后", "th": "หลังอาบน้ำ", "fr": "Après la douche"
+    }
+  },
+  {
+    "id": "tag_ctx_bed_ready",
+    "category": "context",
+    "titles": {
+      "ko": "침대에 눕기 전", "en": "Before getting into bed", "de": "Vor dem Schlafengehen", "ru": "Перед сном", "es": "Antes de acostarse", "ar": "قبل الذهاب للفراش", "it": "Prima di coricarsi", "id": "Sebelum tidur", "ja": "寝る前に", "zh": "睡觉前", "th": "ก่อนเข้านอน", "fr": "Avant de se coucher"
+    }
+  },
+  {
+    "id": "tag_focus_water",
+    "category": "focus",
+    "titles": {
+      "ko": "물 마시기", "en": "Drinking water", "de": "Wasser trinken", "ru": "Пить воду", "es": "Beber agua", "ar": "شرب الماء", "it": "Bere acqua", "id": "Minum air", "ja": "水を飲む", "zh": "喝水", "th": "ดื่มน้ำ", "fr": "Boire de l'eau"
+    }
+  },
+  {
+    "id": "tag_focus_jogging",
+    "category": "focus",
+    "titles": {
+      "ko": "조깅", "en": "Jogging", "de": "Joggen", "ru": "Пробежка", "es": "Trotar", "ar": "الركض", "it": "Fare jogging", "id": "Joging", "ja": "ジョギング", "zh": "慢跑", "th": "จ็อกกิ้ง", "fr": "Jogging"
+    }
+  },
+  {
+    "id": "tag_focus_vitamin",
+    "category": "focus",
+    "titles": {
+      "ko": "영양제", "en": "Vitamins", "de": "Vitamine", "ru": "Витамины", "es": "Vitaminas", "ar": "فيتامينات", "it": "Vitamine", "id": "Vitamin", "ja": "サプリ", "zh": "维生素", "th": "วิตามิน", "fr": "Vitamines"
+    }
+  },
+  {
+    "id": "tag_focus_stretching",
+    "category": "focus",
+    "titles": {
+      "ko": "스트레칭", "en": "Stretching", "de": "Dehnen", "ru": "Растяжка", "es": "Estiramiento", "ar": "تتمدد", "it": "Stretching", "id": "Peregangan", "ja": "ストレッチ", "zh": "拉伸", "th": "ยืดเหยียด", "fr": "Étirement"
+    }
+  },
+  {
+    "id": "tag_focus_reading",
+    "category": "focus",
+    "titles": {
+      "ko": "독서", "en": "Reading", "de": "Lesen", "ru": "Чтение", "es": "Lectura", "ar": "قراءة", "it": "Lettura", "id": "Membaca", "ja": "読書", "zh": "阅读", "th": "อ่านหนังสือ", "fr": "Lecture"
+    }
+  },
+  {
+    "id": "tag_focus_diary",
+    "category": "focus",
+    "titles": {
+      "ko": "일기", "en": "Journaling", "de": "Tagebuch", "ru": "Дневник", "es": "Diario", "ar": "مذكرات", "it": "Diario", "id": "Buku harian", "ja": "日記", "zh": "日记", "th": "บันทึกประจำวัน", "fr": "Journal"
+    }
+  },
+  {
+    "id": "tag_focus_meditation",
+    "category": "focus",
+    "titles": {
+      "ko": "명상", "en": "Meditation", "de": "Meditation", "ru": "Медитация", "es": "Meditación", "ar": "تأمل", "it": "Meditazione", "id": "Meditasi", "ja": "瞑想", "zh": "冥想", "th": "สมาธิ", "fr": "Méditation"
+    }
+  },
+  {
+    "id": "tag_focus_digital_detox",
+    "category": "focus",
+    "titles": {
+      "ko": "스마트폰 멀리하기", "en": "Digital detox", "de": "Digital Detox", "ru": "Цифровой детокс", "es": "Desintoxicación digital", "ar": "ديجيتال ديتوكس", "it": "Digital detox", "id": "Detoks digital", "ja": "デジタルデトックス", "zh": "手机脱毒", "th": "ดี톡스ดิจิทัล", "fr": "Détox digitale"
+    }
+  },
+  {
+    "id": "tag_focus_cleaning",
+    "category": "focus",
+    "titles": {
+      "ko": "정리", "en": "Tidying up", "de": "Aufräumen", "ru": "Уборка", "es": "Ordenar", "ar": "ترتيب", "it": "Riordino", "id": "Merapikan", "ja": "片付け", "zh": "整理", "th": "จัดระ비ียบ", "fr": "Rangement"
+    }
+  },
+  {
+    "id": "tag_action_do",
+    "category": "action",
+    "titles": {
+      "ko": "한다", "en": "Do", "de": "Machen", "ru": "Делать", "es": "Hacer", "ar": "يفعل", "it": "Fare", "id": "Melakukan", "ja": "する", "zh": "做", "th": "ทำ", "fr": "Faire"
+    }
+  },
+  {
+    "id": "tag_action_dont",
+    "category": "action",
+    "titles": {
+      "ko": "하지 않는다", "en": "Don't do", "de": "Nicht machen", "ru": "Не делать", "es": "No hacer", "ar": "لا يفعل", "it": "Non fare", "id": "Tidak melakukan", "ja": "しない", "zh": "不做", "th": "ไม่ทำ", "fr": "Ne pas faire"
+    }
+  },
+  {
+    "id": "tag_action_record",
+    "category": "action",
+    "titles": {
+      "ko": "기록한다", "en": "Record", "de": "Aufzeichnen", "ru": "Записывать", "es": "Registrar", "ar": "يسجل", "it": "Registrare", "id": "Mencatat", "ja": "記録する", "zh": "记录", "th": "บันทึก", "fr": "Enregistrer"
+    }
+  },
+  {
+    "id": "tag_action_increase",
+    "category": "action",
+    "titles": {
+      "ko": "늘린다", "en": "Increase", "de": "Erhöhen", "ru": "Увеличить", "es": "Aumentar", "ar": "يزيد", "it": "Aumentare", "id": "Meningkatkan", "ja": "増やす", "zh": "增加", "th": "เพิ่ม", "fr": "Augmenter"
+    }
+  },
+  {
+    "id": "tag_action_decrease",
+    "category": "action",
+    "titles": {
+      "ko": "줄인다", "en": "Decrease", "de": "Verringern", "ru": "Уменьшить", "es": "Disminuir", "ar": "يقلل", "it": "Diminuire", "id": "Mengurangi", "ja": "減らす", "zh": "减少", "th": "ลด", "fr": "Diminuer"
+    }
+  },
+  {
+    "id": "tag_action_keep",
+    "category": "action",
+    "titles": {
+      "ko": "유지한다", "en": "Maintain", "de": "Beibehalten", "ru": "Поддерживать", "es": "Mantener", "ar": "يحافظ", "it": "Mantenere", "id": "Mempertahankan", "ja": "維持する", "zh": "保持", "th": "รักษา", "fr": "Maintenir"
+    }
+  }
+]
