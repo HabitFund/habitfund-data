@@ -1,0 +1,80 @@
+[
+  {
+    "id": "fr_001",
+    "name": "Croix-Rouge française",
+    "category": "human",
+    "country": "FR",
+    "tags": [
+      "Secourisme",
+      "Aide Humanitaire",
+      "Action Sociale"
+    ],
+    "url": "https://www.croix-rouge.fr/",
+    "desc": "Acteur majeur de l'humanitaire en France, la Croix-Rouge mène des actions de secours, d'aide sociale et de santé pour accompagner les personnes en difficulté."
+  },
+  {
+    "id": "fr_002",
+    "name": "Fondation pour la Nature et l'Homme (FNH)",
+    "category": "earth",
+    "country": "FR",
+    "tags": [
+      "Écologie",
+      "Biodiversité",
+      "Transition Énergétique"
+    ],
+    "url": "https://www.fnh.org/",
+    "desc": "Fondée par Nicolas Hulot, cette fondation œuvre pour une transition écologique solidaire afin de préserver la biodiversité et le climat."
+  },
+  {
+    "id": "fr_003",
+    "name": "Les Restos du Cœur",
+    "category": "community",
+    "country": "FR",
+    "tags": [
+      "Aide Alimentaire",
+      "Lutte contre la pauvreté",
+      "Solidarité"
+    ],
+    "url": "https://www.restosducoeur.org/",
+    "desc": "Association emblématique qui lutte contre la pauvreté et l'exclusion en distribuant des repas gratuits et en aidant à la réinsertion sociale."
+  },
+  {
+    "id": "fr_004",
+    "name": "Emmaüs France",
+    "category": "community",
+    "country": "FR",
+    "tags": [
+      "Logement",
+      "Insertion",
+      "Économie Circulaire"
+    ],
+    "url": "https://emmaus-france.org/",
+    "desc": "Mouvement laïque de lutte contre l'exclusion, Emmaüs agit pour l'accès au logement et le droit au travail des plus démunis à travers l'économie circulaire."
+  },
+  {
+    "id": "fr_005",
+    "name": "Médecins Sans Frontières (MSF)",
+    "category": "human",
+    "country": "FR",
+    "tags": [
+      "Urgence Médicale",
+      "Aide Internationale",
+      "Santé"
+    ],
+    "url": "https://www.msf.fr/",
+    "desc": "Organisation médicale internationale d'origine française qui apporte une assistance médicale d'urgence dans les zones de conflit et de catastrophes."
+  },
+  {
+    "id": "fr_006",
+    "name": "Reporters Sans Frontières (RSF)",
+    "category": "civic",
+    "country": "FR",
+    "tags": [
+      "Liberté de la presse",
+      "Droits de l'homme",
+      "Démocratie"
+    ],
+    "url": "https://rsf.org/fr",
+    "desc": "Organisation internationale basée à Paris qui défend la liberté, l'indépendance et le pluralisme du journalisme partout dans le monde."
+  }
+]

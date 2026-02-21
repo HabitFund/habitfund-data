@@ -11,5 +11,83 @@
     ],
     "url": "https://www.sierraclub.org/",
     "desc": "The most enduring and influential grassroots environmental organization in the United States."
+  },
+  {
+    "id": "us_002",
+    "name": "American Red Cross",
+    "category": "human",
+    "country": "US",
+    "tags": [
+      "Disaster Relief",
+      "Blood Donation",
+      "Health Services"
+    ],
+    "url": "https://www.redcross.org/",
+    "desc": "Provides emergency assistance, disaster relief, and disaster preparedness education in the United States and around the world."
+  },
+  {
+    "id": "us_003",
+    "name": "The Nature Conservancy",
+    "category": "earth",
+    "country": "US",
+    "tags": [
+      "Conservation",
+      "Climate Change",
+      "Wildlife"
+    ],
+    "url": "https://www.nature.org/",
+    "desc": "A global environmental nonprofit working to create a world where people and nature can thrive by conserving the lands and waters."
+  },
+  {
+    "id": "us_004",
+    "name": "Feeding America",
+    "category": "community",
+    "country": "US",
+    "tags": [
+      "Food Bank",
+      "Hunger Relief",
+      "Social Welfare"
+    ],
+    "url": "https://www.feedingamerica.org/",
+    "desc": "The nation’s largest domestic hunger-relief organization, working to connect people with food and end hunger in America."
+  },
+  {
+    "id": "us_005",
+    "name": "ACLU (American Civil Liberties Union)",
+    "category": "civic",
+    "country": "US",
+    "tags": [
+      "Civil Rights",
+      "Legal Defense",
+      "Social Change"
+    ],
+    "url": "https://www.aclu.org/",
+    "desc": "A nonprofit organization founded to defend and preserve the individual rights and liberties guaranteed by the Constitution and laws of the United States."
+  },
+  {
+    "id": "us_006",
+    "name": "St. Jude Children's Research Hospital",
+    "category": "human",
+    "country": "US",
+    "tags": [
+      "Child Health",
+      "Cancer Research",
+      "Pediatrics"
+    ],
+    "url": "https://www.stjude.org/",
+    "desc": "Leading the way the world understands, treats, and defeats childhood cancer and other life-threatening diseases."
+  },
+  {
+    "id": "us_007",
+    "name": "Charity: Water",
+    "category": "human",
+    "country": "US",
+    "tags": [
+      "Clean Water",
+      "Global Health",
+      "Sustainability"
+    ],
+    "url": "https://www.charitywater.org/",
+    "desc": "A nonprofit organization bringing clean and safe drinking water to people in developing countries through sustainable community projects."
   }
 ]

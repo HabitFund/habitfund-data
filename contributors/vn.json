@@ -1,0 +1,67 @@
+[
+  {
+    "id": "vn_001",
+    "name": "Hội Chữ thập đỏ Việt Nam",
+    "category": "human",
+    "country": "VN",
+    "tags": [
+      "Cứu trợ nhân đạo",
+      "Chăm sóc sức khỏe",
+      "Thiên tai"
+    ],
+    "url": "https://redcross.org.vn/",
+    "desc": "Tổ chức nhân đạo lớn nhất Việt Nam, chuyên cung cấp cứu trợ khẩn cấp, chăm sóc sức khỏe và hỗ trợ những người gặp khó khăn do thiên tai."
+  },
+  {
+    "id": "vn_002",
+    "name": "Quỹ Bảo trợ Trẻ em Việt Nam",
+    "category": "human",
+    "country": "VN",
+    "tags": [
+      "Bảo vệ trẻ em",
+      "Giáo dục",
+      "Phúc lợi xã hội"
+    ],
+    "url": "https://nfvc.org.vn/",
+    "desc": "Quỹ do Chính phủ thành lập nhằm huy động nguồn lực hỗ trợ trẻ em có hoàn cảnh đặc biệt, trẻ em nghèo và trẻ em dân tộc thiểu số."
+  },
+  {
+    "id": "vn_003",
+    "name": "Gaia Nature Conservation",
+    "category": "earth",
+    "country": "VN",
+    "tags": [
+      "Trồng rừng",
+      "Bảo tồn thiên nhiên",
+      "Biến đổi khí hậu"
+    ],
+    "url": "https://www.gaiavn.org/",
+    "desc": "Tổ chức phi lợi nhuận tập trung vào việc trồng rừng, bảo tồn đa dạng sinh học và giáo dục môi trường nhằm ứng phó với biến đổi khí hậu tại Việt Nam."
+  },
+  {
+    "id": "vn_004",
+    "name": "Blue Dragon Children's Foundation",
+    "category": "community",
+    "country": "VN",
+    "tags": [
+      "Trẻ em đường phố",
+      "Chống buôn người",
+      "Hỗ trợ cộng đồng"
+    ],
+    "url": "https://www.bluedragon.org/",
+    "desc": "Một tổ chức từ thiện trực tiếp hỗ trợ trẻ em đường phố, trẻ khuyết tật và nạn nhân của nạn buôn người trên khắp Việt Nam."
+  },
+  {
+    "id": "vn_005",
+    "name": "Trung tâm Giáo dục Thiên nhiên (ENV - Education for Nature Vietnam)",
+    "category": "earth",
+    "country": "VN",
+    "tags": [
+      "Bảo vệ động vật",
+      "Động vật hoang dã",
+      "Giáo dục môi trường"
+    ],
+    "url": "https://envietnam.org/",
+    "desc": "Một trong những tổ chức xã hội đầu tiên tại Việt Nam chuyên về bảo tồn thiên nhiên và bảo vệ động vật hoang dã thông qua giáo dục và thực thi pháp luật."
+  }
+]

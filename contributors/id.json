@@ -1,0 +1,67 @@
+[
+  {
+    "id": "id_001",
+    "name": "Palang Merah Indonesia (PMI)",
+    "category": "human",
+    "country": "ID",
+    "tags": [
+      "Bantuan Bencana",
+      "Donor Darah",
+      "Kemanusiaan"
+    ],
+    "url": "https://pmi.or.id/",
+    "desc": "Organisasi kemanusiaan nasional yang berfokus pada pemberian bantuan darurat, layanan darah, dan bantuan bencana di seluruh wilayah Indonesia."
+  },
+  {
+    "id": "id_002",
+    "name": "Yayasan WWF Indonesia",
+    "category": "earth",
+    "country": "ID",
+    "tags": [
+      "Konservasi",
+      "Lingkungan Hidup",
+      "Satwa Liar"
+    ],
+    "url": "https://www.wwf.id/",
+    "desc": "Berfokus pada pelestarian keanekaragaman hayati Indonesia, perlindungan satwa liar, dan pengelolaan sumber daya alam yang berkelanjutan."
+  },
+  {
+    "id": "id_003",
+    "name": "Kitabisa",
+    "category": "community",
+    "country": "ID",
+    "tags": [
+      "Donasi Online",
+      "Kesejahteraan Masyarakat",
+      "Filantropi"
+    ],
+    "url": "https://www.kitabisa.com/",
+    "desc": "Platform galang dana dan donasi online terbesar di Indonesia yang memfasilitasi berbagai bantuan sosial untuk individu maupun komunitas yang membutuhkan."
+  },
+  {
+    "id": "id_004",
+    "name": "Dompet Dhuafa",
+    "category": "community",
+    "country": "ID",
+    "tags": [
+      "Pemberdayaan Masyarakat",
+      "Zakat",
+      "Bantuan Sosial"
+    ],
+    "url": "https://www.dompetdhuafa.org/",
+    "desc": "Lembaga filantropi Islam yang memberdayakan masyarakat melalui program kesehatan, pendidikan, ekonomi, dan bantuan sosial bagi kaum dhuafa."
+  },
+  {
+    "id": "id_005",
+    "name": "KontraS",
+    "category": "civic",
+    "country": "ID",
+    "tags": [
+      "Hak Asasi Manusia",
+      "Keadilan",
+      "Demokrasi"
+    ],
+    "url": "https://kontras.org/",
+    "desc": "Komisi untuk Orang Hilang dan Korban Tindak Kekerasan yang berjuang untuk menegakkan hak asasi manusia dan keadilan bagi warga negara di Indonesia."
+  }
+]

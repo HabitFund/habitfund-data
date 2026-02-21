@@ -1,0 +1,67 @@
+[
+  {
+    "id": "it_001",
+    "name": "Croce Rossa Italiana",
+    "category": "human",
+    "country": "IT",
+    "tags": [
+      "Soccorso",
+      "Assistenza Sanitaria",
+      "Emergenza"
+    ],
+    "url": "https://www.cri.it/",
+    "desc": "Un'organizzazione umanitaria che fornisce soccorso in caso di emergenza, assistenza sanitaria e supporto sociale alle persone più vulnerabili in tutta Italia."
+  },
+  {
+    "id": "it_002",
+    "name": "FAI (Fondo per l'Ambiente Italiano)",
+    "category": "earth",
+    "country": "IT",
+    "tags": [
+      "Tutela Ambientale",
+      "Patrimonio Naturale",
+      "Sostenibilità"
+    ],
+    "url": "https://www.fondoambiente.it/",
+    "desc": "ondazione senza scopo di lucro che opera per la tutela, la salvaguardia e la valorizzazione del patrimonio artistico e naturale italiano."
+  },
+  {
+    "id": "it_003",
+    "name": "Fondazione Banco Alimentare",
+    "category": "community",
+    "country": "IT",
+    "tags": [
+      "Aiuto Alimentare",
+      "Lotta alla Povertà",
+      "Solidarietà Sociale"
+    ],
+    "url": "https://www.bancoalimentare.it/",
+    "desc": "Recupera le eccedenze alimentari e le ridistribuisce a strutture caritative che aiutano persone indigenti e in difficoltà sociale in Italia."
+  },
+  {
+    "id": "it_004",
+    "name": "AIRC (Fondazione per la Ricerca sul Cancro)",
+    "category": "human",
+    "country": "IT",
+    "tags": [
+      "Ricerca Scientifica",
+      "Salute",
+      "Lotta al Cancro"
+    ],
+    "url": "https://www.airc.it/",
+    "desc": "La principale organizzazione non profit in Italia dedicata al finanziamento della ricerca scientifica per rendere il cancro sempre più curabile."
+  },
+  {
+    "id": "it_005",
+    "name": "Libera",
+    "category": "civic",
+    "country": "IT",
+    "tags": [
+      "Legalità",
+      "Giustizia Sociale",
+      "Diritti Civili"
+    ],
+    "url": "https://www.libera.it/",
+    "desc": "Associazioni, nomi e numeri contro le mafie che promuove la legalità, la giustizia sociale e l'uso sociale dei beni confiscati ai clan."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "de_001",
+    "name": "Deutsches Rotes Kreuz (DRK)",
+    "category": "human",
+    "country": "DE",
+    "tags": [
+      "Katastrophenschutz",
+      "Nothilfe",
+      "Gesundheit"
+    ],
+    "url": "https://www.drk.de/",
+    "desc": "Die nationale Rotkreuz-Gesellschaft in Deutschland leistet Hilfe für Menschen in Not, sowohl bei Katastrophen im Inland als auch in internationalen Krisengebieten."
+  },
+  {
+    "id": "de_002",
+    "name": "NABU (Naturschutzbund Deutschland)",
+    "category": "earth",
+    "country": "DE",
+    "tags": [
+      "Naturschutz",
+      "Artenschutz",
+      "Nachhaltigkeit"
+    ],
+    "url": "https://www.nabu.de/",
+    "desc": "Einer der größten Umweltverbände in Deutschland, der sich intensiv für den Schutz von Flüssen, Meeren, Wäldern und gefährdeten Tierarten einsetzt."
+  },
+  {
+    "id": "de_003",
+    "name": "Die Tafeln",
+    "category": "community",
+    "country": "DE",
+    "tags": [
+      "Lebensmittelhilfe",
+      "Armutsbekämpfung",
+      "Soziale Gerechtigkeit"
+    ],
+    "url": "https://www.tafel.de/",
+    "desc": "Diese Organisation rettet überschüssige Lebensmittel und verteilt sie an bedürftige Menschen in ganz Deutschland, um Lebensmittelverschwendung und Armut zu bekämpfen."
+  },
+  {
+    "id": "de_004",
+    "name": "SOS-Kinderdorf Deutschland",
+    "category": "human",
+    "country": "DE",
+    "tags": [
+      "Kinderhilfe",
+      "Jugendhilfe",
+      "Familie"
+    ],
+    "url": "https://www.sos-kinderdorf.de/",
+    "desc": "Bietet Kindern, die nicht bei ihren Eltern aufwachsen können, ein sicheres Zuhause und unterstützt Familien in schwierigen Lebenslagen."
+  },
+  {
+    "id": "de_005",
+    "name": "Transparency International Deutschland",
+    "category": "civic",
+    "country": "DE",
+    "tags": [
+      "Korruptionsbekämpfung",
+      "Transparenz",
+      "Bürgerrechte"
+    ],
+    "url": "https://www.transparency.de/",
+    "desc": "Setzt sich für die Korruptionsbekämpfung und mehr Transparenz in Politik, Wirtschaft und Gesellschaft ein, um die demokratischen Strukturen zu stärken."
+  }
+]

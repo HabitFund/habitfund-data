@@ -1,0 +1,67 @@
+[
+  {
+    "id": "my_001",
+    "name": "Bulan Sabit Merah Malaysia",
+    "category": "human",
+    "country": "MY",
+    "tags": [
+      "Bantuan Kecemasan",
+      "Perkhidmatan Kesihatan",
+      "Kemanusiaan"
+    ],
+    "url": "https://www.redcrescent.org.my/",
+    "desc": "Sebuah organisasi kemanusiaan kebangsaan yang menyediakan bantuan kecemasan, perkhidmatan kesihatan, dan sokongan bencana kepada masyarakat yang memerlukan."
+  },
+  {
+    "id": "my_002",
+    "name": "WWF-Malaysia",
+    "category": "earth",
+    "country": "MY",
+    "tags": [
+      "Pemuliharaan",
+      "Hidupan Liar",
+      "Alam Sekitar"
+    ],
+    "url": "https://www.wwf.org.my/",
+    "desc": "Menumpukan kepada pemuliharaan alam semula jadi Malaysia, melindungi hidupan liar yang terancam seperti Harimau Malaya, dan mempromosikan pengurusan sumber asli yang mampan."
+  },
+  {
+    "id": "my_003",
+    "name": "Mercy Malaysia",
+    "category": "human",
+    "country": "MY",
+    "tags": [
+      "Bantuan Perubatan",
+      "Sukarelawan",
+      "Pemulihan Komuniti"
+    ],
+    "url": "https://www.mercy.org.my/",
+    "desc": "Organisasi bantuan sukarela yang memberi fokus kepada penyediaan bantuan perubatan, pembinaan semula komuniti, dan program kesiapsiagaan bencana di dalam dan luar negara."
+  },
+  {
+    "id": "my_004",
+    "name": "MAKNA (Majlis Kanser Nasional)",
+    "category": "community",
+    "country": "MY",
+    "tags": [
+      "Sokongan Kanser",
+      "Rawatan Kesihatan",
+      "Kebajikan Masyarakat"
+    ],
+    "url": "https://makna.org.my/",
+    "desc": "Memberi bantuan kewangan, sokongan emosi, dan perkhidmatan rawatan kepada pesakit kanser di Malaysia, terutamanya golongan yang kurang berkemampuan."
+  },
+  {
+    "id": "my_005",
+    "name": "EcoKnights",
+    "category": "earth",
+    "country": "MY",
+    "tags": [
+      "Pendidikan Alam Sekitar",
+      "Kelestarian",
+      "Pembersihan Sungai"
+    ],
+    "url": "https://ecoknights.org.my/",
+    "desc": "Sebuah organisasi bukan untung yang memfokuskan kepada pendidikan alam sekitar, pemulihan sungai, undan gaya hidup mampan melalui penglibatan komuniti."
+  }
+]

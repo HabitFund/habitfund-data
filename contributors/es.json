@@ -1,0 +1,67 @@
+[
+  {
+    "id": "es_001",
+    "name": "Cruz Roja Española",
+    "category": "human",
+    "country": "ES",
+    "tags": [
+      "Ayuda Humanitaria",
+      "Emergencias",
+      "Salud"
+    ],
+    "url": "https://www.cruzroja.es/",
+    "desc": "Organización humanitaria que ofrece asistencia a personas vulnerables, socorro en desastres y programas de salud y empleo en toda España."
+  },
+  {
+    "id": "es_002",
+    "name": "SEO/BirdLife",
+    "category": "earth",
+    "country": "ES",
+    "tags": [
+      "Conservación",
+      "Biodiversidad",
+      "Medio Ambiente"
+    ],
+    "url": "https://seo.org/",
+    "desc": "La organización ambiental más antigua de España, dedicada a la conservación de la biodiversidad y los espacios naturales, con especial foco en las aves."
+  },
+  {
+    "id": "es_003",
+    "name": "Cáritas Española",
+    "category": "community",
+    "country": "ES",
+    "tags": [
+      "Bienestar Social",
+      "Pobreza",
+      "Apoyo Local"
+    ],
+    "url": "https://www.caritas.es/",
+    "desc": "Institución oficial de la Iglesia que lucha contra la exclusión social y la pobreza, apoyando a familias y comunidades locales en situación de precariedad."
+  },
+  {
+    "id": "es_004",
+    "name": "Amnistía Internacional España",
+    "category": "civic",
+    "country": "ES",
+    "tags": [
+      "Derechos Humanos",
+      "Justicia",
+      "Libertad"
+    ],
+    "url": "https://www.es.amnesty.org/",
+    "desc": "Movimiento global que trabaja por el reconocimiento y la defensa de los derechos humanos en España y el resto del mundo."
+  },
+  {
+    "id": "es_005",
+    "name": "Fundación Aladina",
+    "category": "human",
+    "country": "ES",
+    "tags": [
+      "Cáncer Infantil",
+      "Pediatría",
+      "Apoyo Familiar"
+    ],
+    "url": "https://aladina.org/",
+    "desc": "Proporciona apoyo integral a niños y adolescentes con cáncer y a sus familias, mejorando su calidad de vida durante el tratamiento."
+  }
+]
