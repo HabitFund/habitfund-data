@@ -50,9 +50,9 @@
   },
   {
     "country": "Russia",
-    "code": "russia",
-    "flag": "https://flagcdn.com/w40/russia.png",
-    "path": "contributors/russia.json",
+    "code": "ru",
+    "flag": "https://flagcdn.com/w40/ru.png",
+    "path": "contributors/ru.json",
     "count": 5
   },
   {
