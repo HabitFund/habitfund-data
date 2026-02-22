@@ -4,15 +4,25 @@ import os
 import sys
 import pycountry
 import urllib.parse
+import urllib.request
+from dotenv import load_dotenv
 
-# 1. 환경 변수에서 시트 ID 가져오기 (공백 제거 및 보안 유지)
+# .env 파일 로드
+load_dotenv()
+
+# 1. 환경 변수 설정
 SHEET_ID = os.environ.get('GOOGLE_SHEET_ID')
+SLACK_WEBHOOK_URL = os.environ.get('SLACK_WEBHOOK_URL')
+
 if SHEET_ID:
     SHEET_ID = SHEET_ID.strip()
 
 if not SHEET_ID:
     print("❌ GOOGLE_SHEET_ID environment variable is not set. Aborting.")
     sys.exit(1)
+
+if SLACK_WEBHOOK_URL:
+    SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL.strip()
 
 # 안전하게 URL 인코딩 처리 (한글 등 방지)
 encoded_id = urllib.parse.quote(SHEET_ID)
@@ -40,6 +50,11 @@ def get_country_info(name):
             # 라이브러리가 찾지 못할 경우 기본 처리
             code = name.lower().replace(" ", "_")
             full_name = name
+            
+            # 슬랙으로 알림 전송
+            warning_msg = f"⚠️ Country lookup failed for '{name}'. Using fallback code: '{code}'"
+            print(warning_msg)
+            send_slack_message(warning_msg)
 
     # 국기 이미지 서비스 (flagcdn) 활용
     if code == "global":
@@ -57,6 +72,30 @@ def clean_category(val):
 def index_to_id(file_code, idx):
     """고유 ID 생성 (예: kr_001)"""
     return f"{file_code}_{idx+1:03d}"
+
+def send_slack_message(message):
+    """Slack Webhook으로 메시지 전송"""
+    if not SLACK_WEBHOOK_URL:
+        print("⚠️ SLACK_WEBHOOK_URL not set. Skipping notification.")
+        return
+
+    payload = {
+        "text": message
+    }
+    
+    try:
+        req = urllib.request.Request(
+            SLACK_WEBHOOK_URL, 
+            data=json.dumps(payload).encode('utf-8'), 
+            headers={'Content-Type': 'application/json'}
+        )
+        with urllib.request.urlopen(req) as response:
+            if response.status == 200:
+                print("✅ Slack notification sent.")
+            else:
+                print(f"⚠️ Failed to send Slack notification: {response.status}")
+    except Exception as e:
+        print(f"⚠️ Error sending Slack notification: {e}")
 
 def main():
     # 데이터 로드 및 NaN(결측치) 처리
@@ -114,6 +153,17 @@ def main():
         json.dump(index_data, f, ensure_ascii=False, indent=2)
     
     print(f"\n🚀 All Done! Index file created at {index_filename}")
+
+    # Slack 알림 전송
+    total_countries = len(index_data)
+    total_items = sum(item['count'] for item in index_data)
+    message = (
+        f"🚀 *HabitFund Data Update Complete*\n"
+        f"• Countries: {total_countries}\n"
+        f"• Total Contributors: {total_items}\n"
+        f"• Index File: `{index_filename}` created successfully."
+    )
+    send_slack_message(message)
 
 if __name__ == "__main__":
     main()
