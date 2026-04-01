@@ -41,15 +41,28 @@ Google Sheets에서 데이터를 수정하면:
 2. **확장 프로그램** → **Apps Script**
 3. 기존 코드 삭제 후 `google-apps-script.js` 파일 내용 복사 & 붙여넣기
 4. 💾 **저장** (Ctrl+S 또는 Command+S)
-5. **setup() 함수 실행**:
+5. **설정 입력** - 두 가지 방법 중 선택:
+
+#### 방법 A: setup() 함수 사용 (대화상자)
    - 함수 목록에서 `setup` 선택
    - **실행** 버튼 클릭
    - 대화상자에 차례대로 입력:
-     - GitHub Personal Access Token (ghp_로 시작하는 토큰)
+     - GitHub Personal Access Token (ghp_로 시작)
      - GitHub 사용자명
      - Repository 이름 (habitfund-data)
-     - 브랜치 이름 (main 또는 master)
-   - 권한 승인 (처음 1회만)
+     - 브랜치 이름 (main)
+
+#### 방법 B: manualSetup() 함수 사용 (타임아웃 에러 발생 시)
+   - `manualSetup` 함수 찾기
+   - 코드 내부의 값 수정:
+     ```javascript
+     const token = 'ghp_YOUR_TOKEN_HERE';  // 실제 토큰으로 변경
+     const owner = 'YOUR_GITHUB_USERNAME'; // 실제 username으로 변경
+     const repo = 'habitfund-data';
+     const branch = 'main';
+     ```
+   - 함수 목록에서 `manualSetup` 선택 → **실행**
+   - 실행 후 다시 해당 부분을 원래대로 되돌려놓기 (보안)
 
 > **보안**: 토큰은 코드에 저장되지 않고 Google Script Properties에 암호화되어 저장됩니다.
 
@@ -125,8 +138,13 @@ Apps Script 편집기에서:
 
 ## 🔍 문제 해결
 
+### "Exceeded maximum execution time" 에러
+- [ ] `setup()` 대신 `manualSetup()` 함수 사용
+- [ ] `manualSetup()` 함수 내부의 값을 직접 수정 후 실행
+- [ ] 대화상자 응답 시간이 길어서 발생하는 경우 → 수동 설정 권장
+
 ### 설정이 저장되지 않음
-- [ ] `setup()` 함수를 실행했는지 확인
+- [ ] `setup()` 또는 `manualSetup()` 함수를 실행했는지 확인
 - [ ] 권한을 승인했는지 확인
 - [ ] `viewConfig()` 함수로 저장된 설정 확인
 
