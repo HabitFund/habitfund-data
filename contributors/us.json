@@ -89,5 +89,33 @@
     ],
     "url": "https://www.charitywater.org/",
     "desc": "A nonprofit organization bringing clean and safe drinking water to people in developing countries through sustainable community projects."
+  },
+  {
+    "id": "us_008",
+    "name": "Greenpeace USA",
+    "category": "earth",
+    "country": "US",
+    "tags": [
+      "Climate Change",
+      "Ocean Protection",
+      "Forest Conservation",
+      "Renewable Energy"
+    ],
+    "url": "https://www.greenpeace.org/usa/",
+    "desc": "A global environmental organization that uses non-violent direct action and creative communication to expose global environmental problems and promote solutions for a green and peaceful future."
+  },
+  {
+    "id": "us_009",
+    "name": "Code.org",
+    "category": "civic",
+    "country": "US",
+    "tags": [
+      "Computer Science",
+      "STEM Education",
+      "Digital Literacy",
+      "Equal Opportunity"
+    ],
+    "url": "https://code.org/",
+    "desc": "A nonprofit dedicated to expanding access to computer science in schools and increasing participation by young women and students from other underrepresented groups."
   }
 ]
